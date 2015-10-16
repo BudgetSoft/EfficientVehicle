@@ -1,0 +1,27 @@
+Initialize engine version: 5.1.1f1 (2046fc06d4d8)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon R9 200 / HD 7900 Series (ID=0x6798)
+    Vendor:   ATI
+    VRAM:     3051 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\James\Documents\EfficientVehicle\EfficientVehicle\Efficient Vehicle\test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\James\Documents\EfficientVehicle\EfficientVehicle\Efficient Vehicle\test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\James\Documents\EfficientVehicle\EfficientVehicle\Efficient Vehicle\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\James\Documents\EfficientVehicle\EfficientVehicle\Efficient Vehicle\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\James\Documents\EfficientVehicle\EfficientVehicle\Efficient Vehicle\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\James\Documents\EfficientVehicle\EfficientVehicle\Efficient Vehicle\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\James\Documents\EfficientVehicle\EfficientVehicle\Efficient Vehicle\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\James\Documents\EfficientVehicle\EfficientVehicle\Efficient Vehicle\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\James\Documents\EfficientVehicle\EfficientVehicle\Efficient Vehicle\test_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\James\Documents\EfficientVehicle\EfficientVehicle\Efficient Vehicle\test_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.040 seconds
+desktop: 1920x1080 60Hz; virtual: 3286x1080 at -1366,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\James\Documents\EfficientVehicle\EfficientVehicle\Efficient Vehicle\test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\James\Documents\EfficientVehicle\EfficientVehicle\Efficient Vehicle\test_Data\Managed\System.dll (this message is harmless)
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: f08 -> priority: 1 

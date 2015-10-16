@@ -5,7 +5,7 @@ public class Road : MonoBehaviour {
 
 	public Road[,] adjRoads = new Road[3,3];
 	public GameObject waypoint;
-	bool filled;
+	public bool filled;
 	// Use this for initialization
 	void Start () {
 		waypoint = transform.FindChild ("Waypoint").gameObject;
