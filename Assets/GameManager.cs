@@ -50,7 +50,7 @@ public class GameManager : MonoBehaviour {
 	}
 
 	public Road StartRoad () {
-		int num = Random.Range (0, 3);
+		int num = Random.Range (0, 4);
 		if (num == 0)
 			return startRoadL;
 		if (num == 1)
@@ -62,5 +62,15 @@ public class GameManager : MonoBehaviour {
 	public void SpawnCar () {
 		GameObject car = (GameObject) Instantiate (carPrefab, Vector3.up, Quaternion.identity);
 		car.GetComponent<Car> ().gameManager = this;
+	}
+	public void SpawnFastCar () {
+		GameObject car = (GameObject) Instantiate (carPrefab, Vector3.up, Quaternion.identity);
+		car.GetComponent<Car> ().gameManager = this;
+		car.GetComponent<Car> ().speed = 5;
+	}	
+	public void SpawnSlowCar () {
+		GameObject car = (GameObject) Instantiate (carPrefab, Vector3.up, Quaternion.identity);
+		car.GetComponent<Car> ().gameManager = this;
+		car.GetComponent<Car> ().speed = 3;
 	}
 }

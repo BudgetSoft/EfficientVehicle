@@ -6,16 +6,24 @@ public class Road : MonoBehaviour {
 	public Road[,] adjRoads = new Road[3,3];
 	public GameObject waypoint;
 	public bool filled;
+	public float speedOfCurrentCar;
+	Renderer mRend;
 	// Use this for initialization
 	void Start () {
+		mRend = GetComponentInChildren<Renderer> ();
 		waypoint = transform.FindChild ("Waypoint").gameObject;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if (adjRoads [0, 1] != null) {
-			Debug.DrawLine (WaypointPos (), adjRoads [0, 1].WaypointPos (),Color.red);
+		if (speedOfCurrentCar != 0) {
+			mRend.material.color = Color.red;
+		} else if (speedOfCurrentCar == 0) {
+			mRend.material.color = Color.grey;
 		}
+		//if (adjRoads [0, 1] != null) {
+			//Debug.DrawLine (WaypointPos (), adjRoads [0, 1].WaypointPos (),Color.red);
+		//}
 	}
 
 	public void Init (GameObject midL,GameObject midR) {
@@ -31,5 +39,16 @@ public class Road : MonoBehaviour {
 	}
 	public Vector3 WaypointPos (){
 		return waypoint.transform.position;
+	}
+	public void SetFilled (float speed){
+		filled = true;
+		speedOfCurrentCar = speed;
+	}
+	public float CheckFilled () {
+		return speedOfCurrentCar;
+	}
+	public void SetNotFilled () {
+		filled = false;
+		speedOfCurrentCar = 0;
 	}
 }
